@@ -1,0 +1,16 @@
+# Bỏ qua file chứa biến môi trường và API Key (QUAN TRỌNG NHẤT)
+.env
+
+# Bỏ qua các thư mục môi trường ảo của Python
+venv/
+env/
+.venv/
+
+# Bỏ qua các file rác do hệ thống Python tự sinh ra
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Bỏ qua file rác của hệ điều hành (nếu dùng Mac)
+.DS_Store
